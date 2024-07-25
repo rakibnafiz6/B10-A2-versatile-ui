@@ -96,6 +96,7 @@
     background-color: rgb(230, 83, 60);
     border-radius: 42px;
     padding: 16px 40px;
+    border: none;
   }
   #banner-btn-2{
     font-weight: 600;
@@ -166,6 +167,633 @@
     top: 590px;
     right: 510px;
   }
+  /* change your habits section */
+  .image-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+  }
+  .habits-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb( 255, 255, 255);
+    text-align: center;
+
+  }
+  .habits-discription{
+   font-size: 0.875rem;
+   font-weight: 400;
+   color: rgb( 255, 255, 255, 0.5);
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 54px;
+  }
+  .gym-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb( 255, 255, 255);
+    margin-top: 25px;
+    text-align: center;
+
+  }
+  .gym-discription{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgb( 255, 255, 255, 0.5);
+    margin-top: 6px;
+  }
+  .image-container img{
+    border-radius: 50%;
+  }
+  /* run and mile related styles */
+  .run-image img{
+    width: 366px;
+    height: 250px;
+    margin-top: 30px;
+    margin-right: 200px;
+    border-radius: 18px;
+    
+
+  }
+  .run-container{
+    display: flex;
+    gap: 165px;
+  }
+  .run-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb( 255, 255, 255);
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 90px;
+    
+  }
+  .run-discription{
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: rgb( 255, 255, 255, 0.5);
+    margin-left: 100px;
+    margin-top: 0px;
+    height: 40px;
+    margin-bottom: 20px;
+
+  }
+  .run{
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    height: 300px;
+    margin-top: 100px;
+  }
+  .run-btn{
+    margin-left: 100px;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb( 255, 255, 255);
+    padding: 16px 30px;
+    border: none;
+    width: 224px;
+  }
+  /* bmi calcolator chart style */
+  .bmi-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb( 255, 255, 255);
+    margin-left: 100px;
+  }
+  .column-header th {
+    color: rgb( 255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    }
+
+  .column-data td{
+    color: rgb( 255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+
+  }
+  table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 210px;
+    
+}
+
+th,td {
+    border: 1px solid rgb( 255, 255, 255, 0.2);
+    padding: 5px 10px;
+}
+.bmi-bg-color{
+  background-color: rgb(34, 34, 34);
+  margin-top: 80px;
+
+}
+  .bmi-calculate-title{
+    font-weight: 900;
+    font-size: 1.75rem;
+    color: rgb( 255, 255, 255);
+    
+  }
+  .bmi-calculate-discription{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb( 255, 255, 255, 0.5);
+  }
+  .bmi-container table{
+    margin-left: 100px;
+  }
+ 
+  
+    .bmi-container{
+      display: flex;
+      gap: 150px;
+    }
+    .bmi-form  input  {
+      height: 45px;
+      width: 190px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb( 255, 255, 255, 0.6);
+      background-color: rgb( 255, 255, 255, 0.1);
+
+    }
+    .select-activity{
+      width: 400px;
+      height: 48px;
+      margin-top: 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb( 255, 255, 255, 0.3);
+      background-color: rgb( 255, 255, 255, 0.1);
+      
+    }
+    .bmi-sex{
+      height: 48px;
+      width: 197px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb( 255, 255, 255, 0.3);
+      background-color: rgb( 255, 255, 255, 0.1);
+    }
+    .bmi-child{
+      margin-right: 50px;
+
+    }
+    .bmi-btn{
+      background-color: rgb(230, 83, 60);
+      border-radius: 42px;
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: rgb( 255, 255, 255);
+      padding: 16px 50px;
+      margin-top: 50px;
+      border: none;
+      margin-bottom: 10px;
+    }
+    /* trainer styles */
+    .trainer-img{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      background-color: rgba( 255, 255, 255, 0.1);
+      border-radius: 18px;
+      width: 900px;
+      margin: 0px auto;
+    }
+    .trainer-1{
+      width: 70%;
+      height: 85%;
+      border-radius: 18px;
+      background-color: rgba(0, 0, 0, 0.2);
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .trainer-2{
+      width: 75%;
+      height: 85%;
+      border-radius: 18px;
+      background-color: rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+    }
+    .trainer-3{
+      width: 75%;
+      height: 85%;
+      border-radius: 18px;
+      background-color: rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+    }
+    .trainer-4{
+      width: 72%;
+      height: 90%;
+      border-radius: 18px;
+      background-color: rgba(0, 0, 0, 0.2);
+      margin-left: 20px;
+    }
+    .trainer-5{
+      width: 75%;
+      height: 90%;
+      border-radius: 18px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .trainer-6{
+      width: 75%;
+      height: 90%;
+      border-radius: 18px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .trainer-title{
+      font-weight: 900;
+      font-size: 3rem;
+      color: rgb( 255, 255, 255);
+      text-align: center;
+      align-items: center;
+      
+    }
+    .trainer-discription{
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba( 255, 255, 255, 0.5);
+      text-align: center;
+      margin-bottom: 65px;
+    }
+    .trainer-name{
+      color: rgb( 255, 255, 255);
+      
+    }
+    .trainer{
+      color: rgb( 255, 255, 255, 0.5);
+      font-size: 14px;
+      font-weight: 300;
+      
+      
+    }
+    .trainer-child{
+      position: absolute;
+      right: 980px;
+      top: 2560px;
+    }
+    .trainer-child-2{
+      position: absolute;
+      right: 670px;
+      top: 2560px;
+    }
+    .trainer-child-3{
+      position: absolute;
+      top: 2560px;
+      right: 360px;
+    }
+    .trainer-child-4{
+      position: absolute;
+      top: 2790px;
+      right: 960px;
+    }
+    .trainer-child-5{
+      position: absolute;
+      top: 2790px;
+      right: 690px;
+    }
+    .trainer-child-6{
+      position: absolute;
+      top: 2790px;
+      right: 370px;
+    }
+    /* some facts styles */
+    .facts-container{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+    }
+    .display-flex{
+      display: flex;
+    }
+    .fact-title{
+      color: rgb( 255, 255, 255);
+      font-size: 2rem;
+      font-weight: 800;
+      text-align: center;
+    }
+    .fact-discription{
+      color: rgba( 255, 255, 255, 0.5);
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .fact-card{
+      border: 1px solid whitesmoke;
+      border-radius: 8px;
+      width: 240px;
+      height: 240px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .fact-number{
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: rgb( 255, 255, 255);
+    }
+    .fact-name{
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 20px;
+      color: rgba( 255, 255, 255, 0.5);
+    }
+
+    /* footer styles */
+    .footer-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-title-1{
+      font-size: 4rem ;
+    font-weight: 800;
+    color:rgb(230, 83, 60);
+    margin-left: 100px;
+    }
+    .footer-discription{
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba( 255, 255, 255, 0.5);
+      margin-left: 100px;
+      margin-bottom: 110px;
+    }
+    .footer-title{
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgb( 255, 255, 255);
+      margin-left: 100px;
+      
+    }
+    .footer-child p{
+      font-weight: 400;
+      font-size: 1.4375rem;
+      color: rgba( 255, 255, 255, 0.5);
+      margin-left: 100px;
+    }
+    .footer-caption{
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: rgba( 255, 255, 255, 0.5);
+      text-align: center;
+      margin-top: 30px;
+     }
+    .footer-bg{
+      background-color: rgba( 255, 255, 255, 0.1);
+      margin-top: 88px;
+      height: 500px;
+    }
+    .line{
+      width: 70%;
+    }
+    
+    
+  
+
   
     
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 576px) {
+
+    
+    
+      .banner, .image-container,
+       .run-container,
+        .bmi-container,
+         .display-flex{
+      flex-direction: column;
+    }
+    .trainer-img,
+     .facts-container,
+      .footer-container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    /* header section */
+    .nav-container{
+      gap: 80px;
+      align-items: center;
+       }
+       #bars{
+        color: rgb( 255, 255, 255);
+        width: 100%;
+        margin-left: 250px;
+      }
+       .banner{
+        gap: 60px;
+      }
+      .banner-img{
+      margin-left: 250px;
+      }
+      .nav-title{
+        margin-left: 200px;
+      }
+       .nav-menu ul{
+        display: none;
+       }
+       .banner-captions{
+      position: absolute;
+       top: 740px;
+       left: 465px;
+       }
+       .banner-captions-2{
+        position: absolute;
+        top: 920px;
+        left: 250px;
+      }
+      .banner-title{
+        font-weight: 500;
+        font-size: 3rem;
+        }
+        .banner-container{
+          margin-left: 270px;
+          width: 90%;
+        }
+        .banner-btn-2{
+         }
+         .btn-main{
+          display: flex;
+        gap: 10px;
+        
+         }
+         .video-circle{
+          color: rgb(230, 83, 60);
+          position: absolute;
+          top: 960px;
+          right: 140px
+           }
+    /* change your habits */
+    .habits-title{
+      font-size: 2rem;
+      width: 100%;
+      margin-left: 200px;
+    }
+    .habits-discription{
+      font-size: 14px;
+    width: 100%;
+      margin-left: 210px;
+     }
+     .image-container{
+      margin-left: 300px;
+     }
+     /* run and mile easily */
+     .run-title{
+     width: 95%;
+     margin-left: 10px;
+     }
+     .run-discription{
+      width: 100%;
+      margin-left: 10px;
+     }
+     .run{
+     margin-left: 230px;
+     width: 100%;
+      height: 100%;
+      margin-top: 100px;
+      }
+    .run-btn{
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .run-image img{
+        margin-left: 25px;
+    }
+    .run-container{
+    gap: 0px;
+   }
+   /* bmi section */
+   .bmi-bg-color{
+    margin-left: 230px;
+    width: 100%;
+   }
+   .bmi-child{
+    margin-left: 20px;
+}
+.select-activity{
+  width: 100%;
+}
+.bmi-title{
+  width: 70%;
+}
+  .bmi-container{
+     gap: 20px;
+  }
+ table{
+  width: 70%;
+  }
+  /* trainer section */
+  .trainer-title{
+      margin-left: 240px;
+      width: 100%;
+    }
+    .trainer-discription{
+      margin-left: 240px;
+      width: 100%;
+     }
+     .trainer-img{
+      margin-left: 120px;
+      width: 700px;
+    }
+    .trainer-img>img{
+      margin-left: 100px;
+    }
+    .trainer-child{
+      position: absolute;
+      right: 80px;
+      top: 5200px;
+    }
+    .trainer-child-2{
+      position: absolute;
+      right: 80px;
+      top: 5700px;
+    }
+    .trainer-child-3{
+      position: absolute;
+      top: 6250px;
+      right: 80px;
+    }
+    .trainer-child-4{
+      position: absolute;
+      top: 6600px;
+      right: 80px;
+    }
+    .trainer-child-5{
+      position: absolute;
+      top: 7080px;
+      right: 80px;
+    }
+    .trainer-child-6{
+      position: absolute;
+      top:  7550px;
+      right: 85px;
+    }
+    /* some facts styles */
+    .fact-title{
+     margin-top: 30px;
+      margin-left: 220px;
+      width: 100%;
+    }
+    .fact-discription{
+      width: 100%;
+      margin-left: 220px;
+      margin-bottom: 30px;
+    }
+    .facts-container{
+    margin-left: 300px;
+  }
+  /* footer section */
+  .footer-container{
+    margin-left: 0px;
+  }
+  .footer-discription{
+    line-height: 25px;
+  }
+  .line{
+   margin-left: 0px;
+   width: 100%;
+  }
+  .footer-caption{
+   margin-left: 0px;
+   width: 100%;
+  }
+  .footer-bg{
+    height: 100%;
+    width: 100%;
+    margin-left: 200px;
+  }
+}
