@@ -76,6 +76,11 @@
   .banner-container{
     margin-left: 150px;
   }
+  .shape-text{
+    font-family: "Inter-miami";
+    font-style: italic;
+    
+  }
   .banner-img{
     margin-right: 70px;
   }
@@ -588,7 +593,7 @@ th,td {
 
 
 
-
+   /* mobile L-425px */
   @media screen and (max-width: 576px) {
 
     
