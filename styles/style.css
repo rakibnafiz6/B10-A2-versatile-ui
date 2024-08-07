@@ -76,11 +76,12 @@
   .banner-container{
     margin-left: 150px;
   }
-  .shape-text{
-    font-family: "Inter-miami";
+  .shape-text {
+    font-family: 'Miami';
     font-style: italic;
-    
-  }
+    font-weight: normal;
+    src: local('Miami'), url('Miami.woff') format('woff');
+}
   .banner-img{
     margin-right: 70px;
   }
@@ -593,7 +594,7 @@ th,td {
 
 
 
-   /* mobile L-425px */
+   /* mobile responsive L-425px */
   @media screen and (max-width: 576px) {
 
     
@@ -745,16 +746,16 @@ th,td {
     .trainer-child-2{
       position: absolute;
       right: 80px;
-      top: 5700px;
+      top: 5680px;
     }
     .trainer-child-3{
       position: absolute;
-      top: 6250px;
+      top: 6230px;
       right: 80px;
     }
     .trainer-child-4{
       position: absolute;
-      top: 6600px;
+      top: 6570px;
       right: 80px;
     }
     .trainer-child-5{
