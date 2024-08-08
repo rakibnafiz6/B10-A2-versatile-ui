@@ -413,6 +413,7 @@ th,td {
       border-radius: 18px;
       background-color: rgba(0, 0, 0, 0.2);
     }
+    
     .trainer-title{
       font-weight: 900;
       font-size: 3rem;
@@ -435,10 +436,9 @@ th,td {
     .trainer{
       color: rgb( 255, 255, 255, 0.5);
       font-size: 14px;
-      font-weight: 300;
-      
-      
-    }
+      font-weight: 300;  
+     }
+
     .trainer-child{
       position: absolute;
       right: 980px;
